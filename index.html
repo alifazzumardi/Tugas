@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Beranda</title>
+		<meta charset="utf-8">
+		<meta name = "format-detection" content = "telephone=no" />
+		<link rel="icon" href="images/favicon.ico">
+		<link rel="shortcut icon" href="images/favicon.ico" />
+		<link rel="stylesheet" href="booking/css/booking.css">
+		<link rel="stylesheet" href="css/camera.css">
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-migrate-1.2.1.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/superfish.js"></script>
+		<script src="js/jquery.ui.totop.js"></script>
+		<script src="js/jquery.equalheights.js"></script>
+		<script src="js/jquery.mobilemenu.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="js/camera.js"></script>
+		<!--[if (gt IE 9)|!(IE)]><!-->
+		<script src="js/jquery.mobile.customized.min.js"></script>
+		<!--<![endif]-->
+		<script src="booking/js/booking.js"></script>
+		<script>
+			$(document).ready(function(){
+				jQuery('#camera_wrap').camera({
+					loader: false,
+					pagination: false ,
+					minHeight: '444',
+					thumbnails: false,
+					height: '28.28125%',
+					caption: true,
+					navigation: true,
+					fx: 'mosaic'
+				});
+				$().UItoTop({ easingType: 'easeOutQuart' });
+			});
+		</script>
+		<!--[if lt IE 8]>
+			<div style=' clear: both; text-align:center; position: relative;'>
+				<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+					<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+				</a>
+			</div>
+			<![endif]-->
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<link rel="stylesheet" media="screen" href="css/ie.css">
+		<![endif]-->
+	</head>
+	<body class="page1" id="top">
+		<div class="main">
+<!--==============================header=================================-->
+			<header>
+				<div class="menu_block ">
+					<div class="container_12">
+						<div class="grid_12">
+							<nav class="horizontal-nav full-width horizontalNav-notprocessed">
+								<ul class="sf-menu">
+									<li class="current"><a href="index.html">Beranda</a></li>
+									<li><a href="index-1.html">Tentang Bejeu</a></li>
+									<li><a href="index-2.html">Galeri</a></li>
+									<li><a href="index-3.html">Kelas Armada</a></li>
+									<li><a href="index-4.html">Kontak</a></li>
+								</ul>
+							</nav>
+							<div class="clear"></div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="container_12">
+					<div class="grid_12">
+						<h1>
+							<a href="index.html">
+								<img src="images/l.jpg" alt="Your Happy Family" height="100%" width="100%">
+							</a>
+						</h1>
+					</div>
+				</div>
+				<br>
+				<div class="clear"></div>
+				</br></br>
+			</header>
+			<div class="slider_wrapper ">
+				<div id="camera_wrap" class="">
+					<div data-src="images/i.jpg" ></div>
+					<div data-src="images/b.jpg" ></div>
+					<div data-src="images/m.jpg"></div>
+				</div>
+			</div>
+			<div class="container_12">
+				<div class="grid_4">
+					<div class="banner">
+						<div class="maxheight">
+							<div class="banner_title">
+								<img src="images/icon1.png" alt="">
+								<div class="extra_wrapper">Cepat &amp;
+									<div class="color1">Aman</div>
+								</div>
+							</div>
+							Menjadi sebuah perusahaan transportasi publik yang AMAN, NYAMAN, dan PEDULI pada PELANGGAN.
+							<a href="#" class="fa fa-share-square"></a>
+						</div>
+					</div>
+				</div>
+				<div class="grid_4">
+					<div class="banner">
+						<div class="maxheight">
+							<div class="banner_title">
+								<img src="images/icon2.png" alt="">
+								<div class="extra_wrapper">Harga
+									<div class="color1">Terbaik</div>
+								</div>
+							</div>
+							Menjadi sebuah perusahaan transportasi publik yang TERJANGKAU, dan BERSAHABAT harganya.
+							<a href="#" class="fa fa-share-square"></a>
+						</div>
+					</div>
+				</div>
+				<div class="grid_4">
+					<div class="banner">
+						<div class="maxheight">
+							<div class="banner_title">
+								<img src="images/icon3.png" alt="">
+								<div class="extra_wrapper">Pengirim
+									<div class="color1">Paket</div>
+								</div>
+							</div>
+							Menjadi sebuah perusahaan transportasi publik yang dapat mengirim paket dengan AMAN, dan TEPAT sampai tujuan.
+							<a href="#" class="fa fa-share-square"></a>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="c_phone">
+				<div class="container_12">
+					<div class="grid_12">
+						<span>The Black Bus</span>
+						<span>Passion</span>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+<!--==============================Content=================================-->
+			<div class="content"><div class="ic"></div>
+				<div class="container_12">
+					<div class="grid_5">
+						<h3>Pesan Tiket</h3>
+						<form id="bookingForm">
+							<div class="fl1">
+								<div class="tmInput">
+									<input name="Name" placeHolder="Nama" type="text" data-constraints='@NotEmpty @Required @AlphaSpecial'>
+								</div>
+								<div class="tmInput">
+									<input name="From" placeHolder="Asal" type="text" data-constraints="@NotEmpty @Required ">
+								</div>
+							</div>
+							<div class="fl1">
+								<div class="tmInput">
+									<input name="Email" placeHolder="Email" type="text" data-constraints="@NotEmpty @Required @Email">
+								</div>
+								<div class="tmInput mr0">
+									<input name="To" placeHolder="Tujuan" type="text" data-constraints="@NotEmpty @Required">
+								</div>
+							</div>
+							<div class="clear"></div>
+							<strong>Waktu</strong>
+							<div class="tmInput">
+								<input name="Time" placeHolder="" type="text" data-constraints="@NotEmpty @Required">
+							</div>
+							<div class="clear"></div>
+							<strong>Tanggal</strong>
+							<label class="tmDatepicker">
+								<input type="text" name="Date"	placeHolder='26/02/2018' data-constraints="@NotEmpty @Required @Date">
+							</label>
+							<div class="clear"></div>
+							<div class="tmRadio">
+								<p>Kelas Armada :</p>
+								<input name="Comfort" type="radio" id="tmRadio0" data-constraints='@RadioGroupChecked(name="Comfort", groups=[RadioGroup])' checked/>
+								<span>Patas</span>
+								<input name="Comfort" type="radio" id="tmRadio1" data-constraints='@RadioGroupChecked(name="Comfort", groups=[RadioGroup])' />
+								<span>VIP</span>
+								<input name="Comfort" type="radio" id="tmRadio2" data-constraints='@RadioGroupChecked(name="Comfort", groups=[RadioGroup])' />
+								<span>Eksekutif</span>
+							</div>
+							<div class="clear"></div>
+							<div class="fl1 fl2">
+								<em>Dewasa :</em>
+								<select name="Adults" class="tmSelect auto" data-class="tmSelect tmSelect2" data-constraints="">
+									<option>::Pilih::</option>
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+								<div class="clear height1"></div>
+							</div>
+							<div class="fl1 fl2">
+								<em>Anak :</em>
+								<select name="Children" class="tmSelect auto" data-class="tmSelect tmSelect2" data-constraints="">
+									<option>::Pilih::</option>
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+							<div class="clear"></div>
+							<div class="tmTextarea">
+								<textarea name="Message" placeHolder="Pesan..." data-constraints='@NotEmpty @Required @Length(min=20,max=999999)'></textarea>
+							</div>
+							<a href="#" class="btn" data-type="submit">Submit</a>
+						</form>
+					</div>
+					<div class="grid_6 prefix_1">
+						<a href="patas.html" class="type"><img src="images/o.jpg" alt=""><span class="type_caption">Patas</span></a>
+						<a href="vip.html" class="type"><img src="images/r.jpg" alt=""><span class="type_caption">VIP</span></a>
+						<a href="eksekutif.html" class="type"><img src="images/s.jpg" alt=""><span class="type_caption">Eksekutif</span></a>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+<!--==============================footer=================================-->
+		<footer>
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="f_phone"><span>Kontak Kami :</span> +0285 337511</div>
+					<div class="socials">
+						<a href="#" class="fa fa-twitter"></a>
+						<a href="#" class="fa fa-facebook"></a>
+						<a href="#" class="fa fa-google-plus"></a>
+					</div>
+					<div class="copy">
+						<div class="st1">
+						<div class="brand"><span class="color1">B</span>e<span class="color1">j</span>e<span class="color1">u</span></div>
+						&copy; 2018	| <a href="#">Privacy Policy</a> </div> Website designed by <a href="http://alifazzumardi.blogspot.co.id/" rel="nofollow">Alif's Developer</a>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</footer>
+		<script>
+			$(function (){
+				$('#bookingForm').bookingForm({
+					ownerEmail: '#'
+				});
+			})
+			$(function() {
+				$('#bookingForm input, #bookingForm textarea').placeholder();
+			});
+		</script>
+	</body>
+</html>
